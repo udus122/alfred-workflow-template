@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["src/*"],
+      "alfy": ["@types/alfy"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}

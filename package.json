@@ -1,0 +1,25 @@
+{
+  "name": "alfred-works-template",
+  "version": "0.0.0",
+  "main": "build/index.js",
+  "author": "yudai1202 <u.yudai1202@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "yarn clean && tsc"
+  },
+  "dependencies": {
+    "alfy": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}
